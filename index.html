@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <img src="img/1.png" width="64">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="slowScroll('#main')">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="slowScroll('#Instruction')">Instruction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="slowScroll('#Bestiary')">Bestiary</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Factions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#" onclick="slowScroll('#Skellige')">Skellige</a></li>
+              <li><a class="dropdown-item" href="#" onclick="slowScroll('#Nilfgaard')">Nilfgaard</a></li>
+              <li><a class="dropdown-item" href="#" onclick="slowScroll('#sco')">Scoia'tael</a></li>
+              <li><a class="dropdown-item" href="#" onclick="slowScroll('#nk')">Nothern Kingdoms</a></li>
+              <li><a class="dropdown-item" href="#" onclick="slowScroll('#Monsters')">Monsters</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="slowScroll('#about')">About us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div id="Welcome">
+  <div class="container">
+    <div class="row centered">
+      <h1>Welcome to the world of Witcher Gwent!</h1>
+    </div>
+  </div>
+</div>
+<div id="Instruction">
+  <div class="container">
+    <h1>What is Gwent and what cards are there?</h1>
+    <p>For starters, let's touch on the basics. The card game Gwent is the successor to the dice game that made the Geralts happy in previous parts of the game universe.
+
+      For those who are familiar with both the book universe and the game one, they know that the book version of Gwent has little in common with the game one, if only because there are four games at the table (instead of two) in the book, the cards look like a normal poker deck, and the very essence of the game is more like the usual poker than the collectible from the game.
+
+      But, perhaps, this makes The Witcher 3 Gwent a more interesting interpretation of Sapkowski's creation.
+
+    Before you start searching for a map, you should familiarize yourself with their types and characteristics, which is what you should do next.</p>
+    <h1>Types of cards</h1>
+    <p>In TheWitcher 3, taking into account all the released add-ons, there are 6 types of card decks, each of which has its own leaders with a certain set of skills.
+
+      In addition to leaders, unit cards occupy a special place in the game (since their minimum number for a party must be at least 22 pieces). Units are divided into three categories - melee, ranged and siege.
+
+      It is also worth noting the presence of neutral cards that are not tied to factions, including special cards.
+
+    All this will be discussed further.</p>
+    <h1>Where and how to find cards for Gwent?</h1>
+    <p>Considering this issue, it is worth repeating that if you set yourself the goal of finding all the existing cards for gwent, and, as can be seen from the tables presented, there are more than 200 pieces, maximum attention should be paid to solving this problem from the very beginning of the game.
+
+    Cards can be obtained in various ways: they can be found in chests, they can be won, they can be bought, they can be obtained by completing quests.</p>
+  </div>
+</div>
+<div id="Bestiary">
+  <div class="container">
+    <div class="row centered">
+      <h1>Bestiary</h1>
+      <div class="col-lg-4">
+        <h2>UIY</h2>
+        <div class="cards">
+          <img src="img/21.jpg" alt="">
+        </div>
+        <p><strong>Deathwish:</strong> Shuffle Viy back to your deck then increase its base power by 3.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2>FUCUSIA</h2>
+        <div class="cards">
+          <img src="img/22.jpg" alt="">
+        </div>
+        <p><strong>Deploy:</strong> Play a Skellige unit from your graveyard with a provision cost of 10 or less and give it <strong>Doomed</strong>, then <strong>Spawn Rain</strong> on the opposite row with a duration equal to unused provision.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2>PROFESSOR</h2>
+        <div class="cards">
+          <img src="img/23.jpg" alt="">
+        </div>
+        <p><strong>Deploy:</strong> Put a <strong>Bounty</strong> on an enemy unit and damage it by 4. <strong>Tribute</strong> 3: Ignore a target's <strong>Armor</strong>.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2>GERALT OF RIVIA</h2>
+        <div class="cards">
+          <img src="img/24.jpg" alt="">
+        </div>
+        <p><strong>Deploy:</strong> Destroy an enemy unit with 9 or more power.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2>THE MUSHY TRUFFLE</h2>
+        <div class="cards">
+          <img src="img/25.jpg" alt="">
+        </div>
+        <p><strong>Resilience. <br>
+        Deploy: Spawn</strong> and play a <strong>Bonded</strong> unit from your starting deck.<br>
+        <strong>Order: Spawn</strong> and play Golden Froth.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2>REYNARD ODO</h2>
+        <div class="cards">
+          <img src="img/26.jpg" alt="">
+        </div>
+        <p> <strong>Formation.<br>
+        Order:</strong> Boost adjacent units by 1.<br>
+      Whenever you play a unit boost it by 1.</p>
+    </div>
+  </div>
+</div>
+</div>
+<div id="Factions">
+  <div class="container">
+    <h1>Factions</h1>
+    <div id="facname">
+      <div id="Skellige"></div>
+      <h2>Skellige</h2>
+      <div class="row centered">
+        <div class="col-lg-6">
+          <p>The Skellige Islands, or simply Skellige, is a state located on the archipelago of the same name.
+          These places are shrouded in ancient legends. The inhabitants of Skellige are known as fearsome pirates and have a strong navy, perhaps the best of any of the Northern Kingdoms.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row centered">
+            <div class="col-sm-9">
+              <img src="img/ske1.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-3">
+              <img src="img/ske2.jpeg" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="facname">
+      <div id="Nilfgaard"></div>
+      <h2>Nilfgaard</h2>
+      <div class="row centered">
+        <div class="col-lg-6">
+          <p>The Skellige Islands, or simply Skellige, is a state located on the archipelago of the same name.
+          These places are shrouded in ancient legends. The inhabitants of Skellige are known as fearsome pirates and have a strong navy, perhaps the best of any of the Northern Kingdoms.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row centered">
+            <div class="col-sm-9">
+              <img src="img/nil1.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-3">
+              <img src="img/nil2.jpg" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="facname">
+      <div id="sco"></div>
+      <h2>Scoia'tael</h2>
+      <div class="row centered">
+        <div class="col-lg-6">
+          <p>The Skellige Islands, or simply Skellige, is a state located on the archipelago of the same name.
+          These places are shrouded in ancient legends. The inhabitants of Skellige are known as fearsome pirates and have a strong navy, perhaps the best of any of the Northern Kingdoms.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row centered">
+            <div class="col-sm-9">
+              <img src="img/sko1.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-3">
+              <img src="img/sko2.jpg" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="facname">
+      <div id="nk"></div>
+      <h2>Nothern Kingdoms</h2>
+      <div class="row centered">
+        <div class="col-lg-6">
+          <p>The Skellige Islands, or simply Skellige, is a state located on the archipelago of the same name.
+          These places are shrouded in ancient legends. The inhabitants of Skellige are known as fearsome pirates and have a strong navy, perhaps the best of any of the Northern Kingdoms.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row centered">
+            <div class="col-sm-9">
+              <img src="img/kin1.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-3">
+              <img src="img/kin2.png" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="facname">
+      <div id="Monsters"></div>
+      <h2>Monsters</h2>
+      <div class="row centered">
+        <div class="col-lg-6">
+          <p>The Skellige Islands, or simply Skellige, is a state located on the archipelago of the same name.
+          These places are shrouded in ancient legends. The inhabitants of Skellige are known as fearsome pirates and have a strong navy, perhaps the best of any of the Northern Kingdoms.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row centered">
+            <div class="col-sm-9">
+              <img src="img/mon1.jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-3">
+              <img src="img/mon2.jpg" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="about">
+  <div class="container">
+    <div class="row centered">
+      <p>This site was made in the absence of the support of Andrey Sapkowski, as well as in non-cooperation with the company CD Project RED. All data is unlicensed and copyrighted.</p>
+      <div id="z">
+        <a href="https://twitter.com/cdprojektred"><i class="fa fa-twitter"></i></a>
+        <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2F117951232275194602870%2Fposts&followup=https%3A%2F%2Fplus.google.com%2F117951232275194602870%2Fposts&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fa fa-google"></i></a>
+        <a href="https://www.instagram.com/cdpred/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/cdpred"><i class="fa fa-facebook"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/b8df44942d.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top - 100
+    }, 100);
+  }
+
+  $(document).on("scroll", function () {
+    if($(window).scrollTop() === 0)
+      $("header").removeClass("fixed");
+    else
+      $("header").attr("class", "fixed");
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+} 
+body, html {
+	width: 100%;
+	height: 100%;
+}
+.navbar {
+	position: fixed;
+	width: 100%;
+}
+.centered {
+	text-align: center;
+}
+#Welcome {
+	background: url(../img/9.jpg) no-repeat center top;
+	background-position: center;
+	min-height: 600px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+}
+#Welcome h1 {
+	padding-top: 200px;
+	color: #FFA500;
+	font-size: 40px;
+	font-weight: 500;
+}
+#Instruction{
+	background: #ad9055;
+	padding: 30px 0px;
+	min-height: 500px;
+	width: 100%;
+	
+}
+#Bestiary {
+	background: url(../img/111.jpg) no-repeat center top;
+	padding: 60px 0px;
+	background-position: center;
+	min-height: 600px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+}
+#Bestiary h1 {
+	margin-bottom: 60px;
+	font-size: 60px;
+	font-weight: 600;
+}
+#Bestiary p {
+	font-size: 19px;
+	font-weight: 500;
+}
+#Bestiary strong {
+	color: red;
+}
+.col-lg-4 {
+	margin-bottom: 60px;
+}
+.cards{
+	border-width: 5px;
+	padding: 30px 0px;
+}
+.cards img {
+	width: 220px;
+}
+.cards:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+#Factions {
+	background-color: #7147b5;
+	padding-bottom: 60px;
+}
+#Factions h1 {
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#Factions h2 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 45px;
+}
+#facname p {
+	text-align: left;
+	font-size: 25px;
+}
+#facname img:hover {
+  -webkit-transform: rotateZ(20deg);
+  -ms-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
+}
+#about {
+	padding-top: 80px;
+	background-color: #000;
+	min-height: 300px;
+}
+#about p {
+	color: white;
+}
+#about a {
+	font-size: 30px;
+	width: 60px;
+	padding: 0px 30px;
+}
+#z {
+	text-align: center;
+}
