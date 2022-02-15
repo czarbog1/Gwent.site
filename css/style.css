@@ -95,6 +95,12 @@ body, html {
   -ms-transform: rotateZ(20deg);
   transform: rotateZ(20deg);
 }
+.col-lg-6 img{
+	max-width: 80%;
+}
+.col-sm-3 img{
+	max-width: 220px;
+}
 #about {
 	padding-top: 80px;
 	background-color: #000;
