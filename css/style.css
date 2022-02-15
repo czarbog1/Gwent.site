@@ -114,26 +114,60 @@ body, html {
 
 
 .registration {
-	background: -webkit-linear-gradient(left, #B096CE, #6B2EB2);
+	background: url(../img/111.jpg) no-repeat center top;
 	height: 100%;
 	text-align: center;
 }
 .user {
 	border-style: solid;
-	border-width: 7px;
-	border-color: #C248CA;
-	background: -webkit-linear-gradient(left, #9795B8, #2C2B3A);
-	border-radius: 90px;
+	border-width: 8px;
+	border-color: #4a4545;
 	margin: 0px 20%;
 	padding: 4% 5%;
-	background-color: white;
+	background-color: #a8a8a7;
 	min-width: 250px;
 }
 #button {
-	border-radius: 45px;
 	margin: 10% 2% 0%;
 	font-weight: 600;
   position: relative;
   font-size: 100%;
   width: 120px;
+}
+.btn-success {
+	background-color: #ad9055;
+	border-color: #3d2c18;
+}
+.btn-success:hover {
+	background-color: #3d2c18;
+	border-color: #3d2c18;
+}
+.btn-primary {
+	background-color: #5e5b58;
+	border-color: #24221f;
+}
+.btn-primary:hover {
+	background-color: #24221f;
+	border-color: #24221f;
+}
+* {box-sizing: border-box;}
+.modal-dialog {
+	max-width: 800px;
+}
+.modal-header {
+	padding: 0px;
+}
+.img-magnifier-container {
+  position: relative;
+}
+.img-magnifier-container img{
+  max-width: 100%;
+}
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
 }

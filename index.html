@@ -12,7 +12,8 @@
   <header>
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <img src="img/1.png" width="64">
+      <img src="img/1.png" id="wolf" width="64" onclick="soundClick()">
+      <audio id="audio" src="music/m1.mp3"></audio>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -53,6 +54,21 @@
     </div>
   </nav>
 </header>
+<div class="modal" tabindex="-1">
+<div class="container">
+  <div class="row centered">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="img-magnifier-container">
+          <img id="myimage" src="img/map.jpg" width="774" height="538" alt="Map">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 <div id="Welcome">
   <div class="container">
     <div class="row centered">
@@ -259,12 +275,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/b8df44942d.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
 <script>
-  function slowScroll(id) {
-    $('html, body').animate({
-      scrollTop: $(id).offset().top - 100
-    }, 100);
-  };
+  /* Execute the magnify function: */
+  magnify("myimage", 3);
+  /* Specify the id of the image, and the strength of the magnifier glass: */
 </script>
 </body>
 </html>
