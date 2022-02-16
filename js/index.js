@@ -1,6 +1,6 @@
 var audio = $('audio')[0];
 var a = 0;
-function soundClick() { 
+$("#wolf").on("click", function(){
   if(a == 0){
   a = 1;
   audio.play();
@@ -10,7 +10,7 @@ else {
   audio.pause();
   audio.currentTime = 0;
 }
-}
+});
 
 function slowScroll(id) {
     $('html, body').animate({
@@ -84,4 +84,7 @@ function magnify(imgID, zoom) {
     y = y - window.pageYOffset;
     return {x : x, y : y};
   }
-}
+};
+$("#Hello").on("mouseover", function(){
+  $("#Hello").css("text-shadow", "0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e");
+});
